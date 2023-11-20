@@ -62,21 +62,16 @@ header {
 }
 
 nav {
-  width: 400px;
+  width: fit-content;
   display: flex;
   justify-content: space-around;
-
-}
-
-@media screen and (max-width: 700px) {
-  nav {
-    width: 150px;
-  }
+  gap: 50px;
 }
 
 a {
   color: white;
   text-decoration: none;
+  text-wrap: nowrap;
 }
 
 .selected {
