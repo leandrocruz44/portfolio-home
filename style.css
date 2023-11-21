@@ -76,6 +76,7 @@ a {
 
 .selected {
   color: #65c7ff;
+  text-decoration: underline;
 }
 
 a:hover {
