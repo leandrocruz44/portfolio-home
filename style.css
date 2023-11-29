@@ -244,6 +244,24 @@ p {
   background-position: center;
 }
 
+.trailers:hover {
+  box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+}
+
+.link-container-a:hover {
+  text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #bc13fe,
+    0 0 45px #bc13fe,
+    0 0 55px #bc13fe;
+}
+
 .mentoria {
   background-image: url(hero-image-appmentoria.jpg);
   background-size: cover;
