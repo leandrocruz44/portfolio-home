@@ -65,6 +65,7 @@ nav {
   width: fit-content;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   gap: 50px;
 }
 
@@ -76,7 +77,6 @@ a {
 
 .selected {
   color: #65c7ff;
-  text-decoration: underline;
 }
 
 a:hover {
@@ -212,9 +212,11 @@ main {
   width: 400px;
   height: 200px;
   background-color: #65c7ff;
+  border: 1px solid white;
   border-radius: 5px;
   display: flex;
   flex-direction: column-reverse;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 500px) {
@@ -230,6 +232,8 @@ main {
     0 0 .2rem #fff,
     0 0 2rem #65c7ff,
     inset 0 0 1.3rem #65c7ff;
+  transform: translateY(-0.25em);
+  transition: all 0.3s ease;
 }
 
 p {
