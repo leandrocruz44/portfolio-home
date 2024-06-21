@@ -208,13 +208,14 @@ main {
   font-size: 18px;
   font-weight: 500;
   border-radius: 15px;
-  border: 0.2rem solid #fff;
+  border: 1px solid #fff;
   box-shadow: 
-    0 0 .2rem #fff,
-    0 0 .2rem #fff,
-    0 0 2rem #00a2ff,
-    0 0 0.8rem #00a2ff,
-    inset 0 0 1.3rem #00a2ff;
+  0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #00a2ff,
+  0 0 0.8rem #00a2ff,
+  inset 0 0 1.3rem #00a2ff;
+
   color: #fff;
   text-shadow:
     0 0 7px #fff,
