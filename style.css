@@ -300,7 +300,8 @@ p {
   font-size: 18px;
   text-wrap: wrap;
   padding: 10px;
-  background-color: rgba(7, 7, 7, 0.774);
+  color: white;
+  background-color: rgba(7, 7, 7, 0.836);
   border-radius: 0 0 5px 5px;
 }
 
